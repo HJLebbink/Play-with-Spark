@@ -11,6 +11,13 @@ To run the example, execute:
 sbt run
 ```
 
+## Usage
+[http://localhost:9000/test]() for call to Controllers.HomeController.test 
+[http://localhost:9000/testA]() for a call to controllers.HomeController.testAsync
+
+
+
+
 ## Spark and SBT
 The challeging part was to combine dependencies from different projects along with Spark, Scala and SBT versions. The result is something that works, but can be improved. Nevertheless, I can lived with all the versions used here.
 
